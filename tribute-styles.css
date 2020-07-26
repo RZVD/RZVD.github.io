@@ -1,5 +1,6 @@
-#main{
-  
+#body{
+  margin:0;
+  padding:0;
 }
 #title-div h1{
   text-align: center;
@@ -8,7 +9,8 @@
   font-family: monospace;
 }
 #title-div{
-  
+  margin:0;
+  paddding:0;
   position: relative;
   box-shadow: 0 6px 6px rgba(0,0,0,0.5);
 }
