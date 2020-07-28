@@ -55,13 +55,18 @@ body::before{
 	background-repeat: no-repeat;
 	background-position: center; 
 }
+@media (min-width:768px){
+	.container{
+		max-width:720px;
+	}
+}
 p{
 	font-size:1.25rem;
 }
 .container{
-	width:50%;
+	width:45%;
 	margin: auto;
-
+	min-width:486px;
 }
 form {
   background: var(--color-darkblue-alpha);
